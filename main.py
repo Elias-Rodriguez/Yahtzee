@@ -7,13 +7,13 @@ def roll():
 
     Dice = {1: "blank", 2: "blank", 3: "blank", 4: "blank", 5: "blank"}
 
-    for i in range(6):
-        i = 1
+    for i in range(1,6):
+
         number = random.randint(1, 6)
         Dice[i] = number
         i += 1
 
-    return print(Dice)
+    print(Dice)
 
 
 
